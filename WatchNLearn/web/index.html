@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchNLearn</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="sidebar">
+            <div id="sidebar-header">
+                <h1>WatchNLearn</h1>
+                <button id="new-note-btn">+ New Note</button>
+            </div>
+            <div id="notes-list"></div>
+        </div>
+
+        <div id="main">
+            <div id="video-panel">
+                <div id="video-placeholder">
+                    <p>No video loaded</p>
+                </div>
+                <div id="yt-player"></div>
+            </div>
+
+            <div id="editor-panel">
+                <div id="toolbar">
+                    <button id="bold-btn" data-cmd="bold"><b>B</b></button>
+                    <button id="italic-btn" data-cmd="italic"><i>I</i></button>
+                    <button id="list-btn" data-cmd="insertUnorderedList">• List</button>
+                    <button id="h1-btn">H1</button>
+                    <button id="h2-btn">H2</button>
+                    <button id="timestamp-btn">⏱ Timestamp</button>
+                    <span id="save-status"></span>
+                </div>
+                <div id="editor" contenteditable="true">
+                    <p>Open or create a note to get started.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="/static/editor.js"></script>
+</body>
+</html>
