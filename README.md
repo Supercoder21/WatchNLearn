@@ -14,4 +14,8 @@ Running WatchNLearn is very easy, simply open the folder's terminal and then run
 
 # Version History
 
-WatchNLearn 1.0: All main features are put in place, articles and project components are scheduled for version 1.1.
+WatchNLearn v.1.0: Main video features are complete.
+
+## Upcoming
+
+WatchNLearn v.1.1: Adds article and project components
